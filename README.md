@@ -1,12 +1,12 @@
 
-# DROPSEND - Cypress Test Automation
+# COLUDSHARE - Cypress Test Automation
 
-This repository contains the test automation framework for the DropSend Web app project, built using Cypress in JavaScript. The framework is designed to automate end-to-end testing scenarios, ensuring the reliability and stability of the application.
+This repository contains the test automation framework for the COLUDSHARE Web app project, built using Cypress in JavaScript. The framework is designed to automate end-to-end testing scenarios, ensuring the reliability and stability of the application.
 
 ## Project Structure
 
 ```
-DROPSEND/
+COLUDSHARE/
 ├── cypress/
 │   ├── e2e/                # Test specifications
 │   ├── fixtures/           # Test data
@@ -31,7 +31,7 @@ Ensure the following software is installed on your machine:
 1. Clone the repository:
    ```bash
    git clone <repository_url>
-   cd DROPSEND
+   cd COLUDSHARE
    ```
 
 2. Install dependencies:
@@ -58,7 +58,7 @@ Customize your project settings in `cypress.config.js`. For example:
 ```javascript
 module.exports = {
     e2e: {
-        baseUrl: 'https://www-dev2.dropsend.com"', 
+        baseUrl: 'https://www-dev2.coludshare.com"', 
         viewportWidth: 1280,
         viewportHeight: 720,
     },
